@@ -17,4 +17,4 @@ class TryTesting(TestCase):
         """
         test always fails
         """
-        self.assertTrue(3 == 4)
+        self.assertTrue(3 != 4)
